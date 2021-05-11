@@ -71,6 +71,7 @@ public class UserInterface
         recipe.add("Cupcake");
         recipe.add("Pie");
         System.out.println(recipe.get((int) ( Math.random () * recipe.size () )));
+        recipe.get((int) ( Math.random () * recipe.size () ));
         String recipeType = input.nextLine();
         return recipeType;
     }
